@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Nhap=prompt("nhập vào 1 dãy số :  ");
+    let mang =[];
+    for (i=0;i<Nhap.length;i++){
+        if(Nhap[i]%2===0 && Nhap[i+1]%2===0){
+            mang.push(Nhap[i],"-");
+        }else mang.push(Nhap[i]);
+    }
+    let x=mang.join("");
+    document.write(x);
+</script>
+</body>
+</html>
